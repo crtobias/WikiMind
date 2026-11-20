@@ -15,7 +15,7 @@
   <text class="t" x="720" y="36" text-anchor="middle">Lo que lee Claude Code</text>
 
   <rect class="card" x="30" y="56" width="240" height="70" rx="12"/>
-  <text class="m" x="50" y="86">agentes/postular.md</text>
+  <text class="m" x="50" y="86">agentes/play-store.md</text>
   <text class="s" x="50" y="108">name · description · model</text>
 
   <rect class="card" x="30" y="146" width="240" height="70" rx="12"/>
@@ -32,7 +32,7 @@
   <text class="s" x="440" y="182" text-anchor="middle">crea, mueve y limpia links</text>
 
   <rect class="card" x="580" y="56" width="280" height="70" rx="12"/>
-  <text class="m" x="598" y="86">.claude/agents/postular.md</text>
+  <text class="m" x="598" y="86">.claude/agents/play-store.md</text>
   <text class="s" x="598" y="108">symlink · opcional → agents-opcionales/</text>
 
   <rect class="card" x="580" y="146" width="280" height="70" rx="12"/>
