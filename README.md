@@ -96,6 +96,13 @@ Creá `skills/globales/<nombre>/SKILL.md` y linkeala una vez:
 ln -s "$PWD/skills/globales/<nombre>" ~/.claude/skills/<nombre>
 ```
 
+## Qué trae de ejemplo
+
+- `/nuevo-proyecto`: entrevista de arranque para cualquier proyecto (app, web, juego, API). Entrega un Brief y lo reparte en `proyectos/<P>/`.
+- `/eval`: examina y mejora tus skills y agentes.
+- `play-store`: auditoría de una app Android contra los requisitos de Google Play.
+- `postular`: postula a avisos por mail o formulario. Viene apagado (`sync: off`) hasta que completes tus datos.
+
 ## Evals: skills que mejoran solas
 
 ![Loop de eval](docs/img/eval.svg)

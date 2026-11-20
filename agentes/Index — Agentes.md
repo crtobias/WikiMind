@@ -8,9 +8,12 @@ actualizado: AAAA-MM-DD
 
 > Agentes propios de Claude Code (tareas largas que se delegan). Los `.md` reales viven acá; `.claude/agents/` solo tiene symlinks. Volver a [[indice/ia]].
 
-| Agente | Modelo | Qué hace |
+| Agente / skill | Modelo | Qué hace |
 |---|---|---|
-| | | |
+| [[skills/nuevo-proyecto\|nuevo-proyecto]] | skill `/nuevo-proyecto` | Entrevista de arranque, una pregunta por vez: plataformas, stores, stack, plata, legal, infra. Entrega un `Brief — <P>.md` y lo reparte en `proyectos/<P>/`. |
+| [[skills/eval\|eval]] | skill `/eval` | Examen de una skill o agente con subagentes y evaluador; mejora el `.md` hasta 10/10. |
+| [[play-store]] | sonnet | Audita una app Android contra todo lo que pide Google Play (build, permisos, Data safety, ficha, políticas, cuenta). Reporte con lo que bloquea primero. |
+| [[postular]] | sonnet · `sync: off` | Postula a avisos por mail o formulario con Chrome. Completá tus datos y tu perfil real, y sacá `sync: off` para activarlo. |
 
 ## Cómo agregar uno
 1. Creá `agentes/<nombre>.md` desde [[plantillas/agente]] (frontmatter `name`, `description`, `model`).
