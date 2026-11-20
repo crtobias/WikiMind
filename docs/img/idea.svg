@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <style>
+    .bg{fill:#ffffff}.card{fill:#f6f8fa;stroke:#d0d7de}.hi{fill:#ecf6ff;stroke:#54aeff}
+    .t{fill:#1f2328;font-size:16px;font-weight:600}.s{fill:#59636e;font-size:13px}
+    .a{stroke:#8c959f;stroke-width:2;fill:none}.ah{fill:#8c959f}.acc{fill:#0969da;font-size:13px;font-weight:600}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#0d1117}.card{fill:#161b22;stroke:#30363d}.hi{fill:#0c2d6b;stroke:#1f6feb}
+      .t{fill:#e6edf3}.s{fill:#9198a1}.a{stroke:#6e7681}.ah{fill:#6e7681}.acc{fill:#4493f8}
+    }
+  </style>
+  <defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+  <rect class="bg" width="880" height="300" rx="16"/>
+
+  <rect class="card" x="30" y="70" width="220" height="160" rx="12"/>
+  <text class="t" x="140" y="108" text-anchor="middle">Vos o tu equipo</text>
+  <text class="s" x="140" y="138" text-anchor="middle">proyectos, ideas,</text>
+  <text class="s" x="140" y="158" text-anchor="middle">decisiones, personas,</text>
+  <text class="s" x="140" y="178" text-anchor="middle">qué pasó cada día</text>
+  <text class="acc" x="140" y="210" text-anchor="middle">escriben notas .md</text>
+
+  <rect class="hi" x="330" y="40" width="220" height="220" rx="12"/>
+  <text class="t" x="440" y="80" text-anchor="middle">El vault (este repo)</text>
+  <text class="s" x="440" y="112" text-anchor="middle">wiki.md · reglas</text>
+  <text class="s" x="440" y="134" text-anchor="middle">indice/ · el mapa</text>
+  <text class="s" x="440" y="156" text-anchor="middle">notas cortas, un dato</text>
+  <text class="s" x="440" y="176" text-anchor="middle">en un solo lugar</text>
+  <text class="s" x="440" y="206" text-anchor="middle">agentes/ · skills/ · evals</text>
+  <text class="acc" x="440" y="238" text-anchor="middle">Obsidian + git</text>
+
+  <rect class="card" x="630" y="70" width="220" height="160" rx="12"/>
+  <text class="t" x="740" y="108" text-anchor="middle">Agentes de IA</text>
+  <text class="s" x="740" y="138" text-anchor="middle">Claude Code, Codex…</text>
+  <text class="s" x="740" y="158" text-anchor="middle">leen solo el camino</text>
+  <text class="s" x="740" y="178" text-anchor="middle">que necesitan</text>
+  <text class="acc" x="740" y="210" text-anchor="middle">menos tokens, más contexto</text>
+
+  <path class="a" d="M252 150 H326" marker-end="url(#m)"/>
+  <path class="a" d="M552 135 H626" marker-end="url(#m)"/>
+  <path class="a" d="M626 170 H556" marker-end="url(#m)"/>
+  <text class="s" x="590" y="195" text-anchor="middle">anotan</text>
+  <text class="s" x="590" y="125" text-anchor="middle">leen</text>
+</svg>

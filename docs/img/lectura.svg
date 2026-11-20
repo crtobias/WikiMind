@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <style>
+    .bg{fill:#ffffff}.card{fill:#f6f8fa;stroke:#d0d7de}.hi{fill:#dafbe1;stroke:#4ac26b}
+    .t{fill:#1f2328;font-size:15px;font-weight:600}.s{fill:#59636e;font-size:12.5px}.m{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    .a{stroke:#8c959f;stroke-width:2;fill:none}.ah{fill:#8c959f}.no{fill:#cf222e;font-size:13px;font-weight:600}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#0d1117}.card{fill:#161b22;stroke:#30363d}.hi{fill:#0f2d1a;stroke:#2ea043}
+      .t{fill:#e6edf3}.s{fill:#9198a1}.a{stroke:#6e7681}.ah{fill:#6e7681}.no{fill:#ff7b72}
+    }
+  </style>
+  <defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+  <rect class="bg" width="880" height="220" rx="16"/>
+
+  <rect class="card" x="20" y="50" width="150" height="90" rx="12"/>
+  <text class="t m" x="95" y="88" text-anchor="middle">wiki.md</text>
+  <text class="s" x="95" y="112" text-anchor="middle">reglas + modo</text>
+
+  <rect class="card" x="195" y="50" width="150" height="90" rx="12"/>
+  <text class="t" x="270" y="88" text-anchor="middle">Guía</text>
+  <text class="s" x="270" y="112" text-anchor="middle">low · standard · team</text>
+
+  <rect class="card" x="370" y="50" width="150" height="90" rx="12"/>
+  <text class="t m" x="445" y="88" text-anchor="middle">indice/Indice</text>
+  <text class="s" x="445" y="112" text-anchor="middle">lista de temas</text>
+
+  <rect class="card" x="545" y="50" width="150" height="90" rx="12"/>
+  <text class="t m" x="620" y="88" text-anchor="middle">indice/&lt;tema&gt;</text>
+  <text class="s" x="620" y="112" text-anchor="middle">links a notas</text>
+
+  <rect class="hi" x="720" y="50" width="140" height="90" rx="12"/>
+  <text class="t" x="790" y="88" text-anchor="middle">La nota</text>
+  <text class="s" x="790" y="112" text-anchor="middle">solo la sección ##</text>
+
+  <path class="a" d="M172 95 H191" marker-end="url(#m)"/>
+  <path class="a" d="M347 95 H366" marker-end="url(#m)"/>
+  <path class="a" d="M522 95 H541" marker-end="url(#m)"/>
+  <path class="a" d="M697 95 H716" marker-end="url(#m)"/>
+
+  <text class="no" x="440" y="185" text-anchor="middle">Nunca: leer la wiki entera ni buscar en todo el vault</text>
+</svg>

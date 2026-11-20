@@ -1,0 +1,14 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache
+.trash/
+
+.claude/agents/
+.claude/agents-opcionales/
+.claude/skills/
+.claude/settings.local.json
+
+.DS_Store
+Thumbs.db
+*.zip
