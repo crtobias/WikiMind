@@ -19,7 +19,7 @@ actualizado: AAAA-MM-DD
 ## 2. Cómo leer
 1. Nunca leas la wiki entera ni hagas búsquedas globales.
 2. Entrá por [[indice/Indice]] → índice del tema → nota.
-3. Si ya sabés el proyecto, andá directo a `proyectos/<P>/<P>.md`.
+3. Si ya sabés el proyecto, andá directo a `proyectos/<P>/00 Overview — <P>.md` y después a su `Feature Map — <P>`.
 4. Nota larga: leé solo los títulos `##` y abrí la sección que necesitás.
 
 ## 3. Cómo escribir
@@ -47,9 +47,17 @@ actualizado: AAAA-MM-DD
 | `worklogs/` | Qué pasó cada día (historia, append-only) |
 | `info-persistente/personas/` | Ficha de cada persona |
 | `info-persistente/informacion-general/` | Datos generales que no cambian |
-| `proyectos/` | Un subcarpeta por proyecto, con su propia mini wiki |
+| `proyectos/` | Una subcarpeta por proyecto, con su propia mini wiki (ver abajo) |
 | `media/` | Assets 3D, 2D y contenido |
 | `plantillas/` | Plantillas de notas |
+
+### Estructura de un proyecto
+Ejemplo completo: [[proyectos/TurnoYa/00 Overview — TurnoYa|TurnoYa]].
+- `00 Overview — <P>` · `02 Architecture — <P>` · `03 Design System — <P>` · `Feature Map — <P>`.
+- `Decisions/` (un ADR por decisión con alternativas) y `Specs/`, cada una con su `Index — <P> Decisions/Specs`.
+- Una carpeta por repo (`Back/`, `Web/`…): hub `<Repo> — <P>` + concerns (`Architecture`, `Screens`, `Components`, `Routes`, `Data`…) con nombre `<Concern> — <Repo>.md`.
+- Feature Map: por feature, dónde se ve · código · cómo probarlo. Si agregás, movés o borrás una feature, actualizá su fila.
+- Worklog: `worklogs/<P>/AAAA-MM-DD — <P>.md`, append-only.
 
 ## 5. Dónde vive la verdad
 - Estado actual = notas durables. Historia = `worklogs/`.

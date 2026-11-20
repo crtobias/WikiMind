@@ -12,7 +12,7 @@ actualizado: AAAA-MM-DD
 - Preferencias del usuario: cómo le gusta que le respondan, qué evita.
 - Datos personales útiles que el usuario quiera guardar.
 - Recomendaciones basadas en su historial.
-- Worklog por día y por proyecto: `worklogs/AAAA-MM-DD — <P>.md`.
+- Worklog por día y por proyecto: `worklogs/<P>/AAAA-MM-DD — <P>.md`.
 - Calendario y fichaje, **solo si el usuario lo pide**.
 
 ## Metadata

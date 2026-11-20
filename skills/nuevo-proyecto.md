@@ -265,16 +265,20 @@ Entidades · relaciones · invariantes.
 Si no ves `wiki.md` y `proyectos/_plantilla-proyecto.md` en el directorio, **ignorá esta sección**.
 
 1. Corré en la sesión principal (no como subagente): necesitás preguntarle al humano.
-2. Si el proyecto ya existe en `proyectos/<P>/`, leé su `<P>.md` y saltá lo ya contestado.
+2. Si el proyecto ya existe en `proyectos/<P>/`, leé su `00 Overview — <P>` y saltá lo ya contestado. La estructura de referencia es [[proyectos/TurnoYa/00 Overview — TurnoYa|TurnoYa]].
 3. Guardá el Brief en `proyectos/<P>/Brief — <P>.md`.
 4. Repartilo (una verdad en un solo lugar; el Brief queda como foto del arranque):
 
 | Del Brief | A la nota |
 |---|---|
-| Qué es, stack, cómo correrlo, estado, pendientes | `proyectos/<P>/<P>.md` desde [[proyectos/_plantilla-proyecto]] |
-| Cada decisión con alternativas | `proyectos/<P>/Decisions/NNNN <Título>.md` (contexto · opciones · decisión · consecuencias) |
-| Specs por escribir | `proyectos/<P>/Specs/Index — <P> Specs.md` |
+| Perfil, problema, alcance, stack, estado | `00 Overview — <P>` desde [[proyectos/_plantilla-proyecto]] |
+| Capas y cómo se conectan | `02 Architecture — <P>` |
+| Diseño (si hay UI propia) | `03 Design System — <P>` |
+| Funcionalidades | `Feature Map — <P>` (dónde se ve · código · cómo probarlo) |
+| Cada decisión con alternativas | `Decisions/NNNN <Título>.md` (contexto · opciones · decisión · consecuencias) + `Index — <P> Decisions` |
+| Specs | `Specs/SPEC-NNNN <Título>.md` + `Index — <P> Specs` (Escritas / Por escribir / Bloqueos) |
+| Cada repo | `<Repo>/<Repo> — <P>.md` (hub) + concerns `<Concern> — <Repo>.md` |
 
-5. No crees notas vacías.
+5. No crees notas vacías, salvo `Decisions/` y `Specs/` con su Index.
 6. Formato: frontmatter de [[plantillas/nota]] y notas de 1000 palabras como máximo (si pasa, se parte por tema).
-7. Al cerrar: sumá el proyecto a [[indice/proyectos]], escribí la primera entrada en `worklogs/AAAA-MM-DD — <P>.md` y, si hay repo, un `CLAUDE.md` que mande a leer `proyectos/<P>/<P>.md`.
+7. Al cerrar: sumá el proyecto a [[indice/proyectos]], escribí la primera entrada en `worklogs/<P>/AAAA-MM-DD — <P>.md` y, si hay repo, un `CLAUDE.md` que mande a leer `00 Overview — <P>` y `Feature Map — <P>`.
