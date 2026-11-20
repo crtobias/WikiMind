@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/img/banner.svg" alt="WikiMind" width="100%"></p>
+
 # WikiMind
 
 Una wiki en Markdown para que vos (o tu equipo) y tus agentes de IA compartan **una sola memoria**. La abrís con Obsidian, la versionás con git y Claude Code, Codex o cualquier LLM la leen siguiendo un mapa, sin tener que leerla entera.
